@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+svg {
+  cursor: pointer;
+  transform: rotate(-80deg);
+}
+
+h1 {
+  font-family: rubik;
+  font-weight: 800;
+}
